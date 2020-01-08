@@ -9,6 +9,6 @@ use Core\Router;
 
 try{
     Router::start();
-} catch (\Trowable $error){
+} catch (\Throwable $error){
     echo 'Error occurs! ' . $error->getMessage();
 }
